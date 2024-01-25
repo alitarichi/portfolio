@@ -675,7 +675,19 @@ work__page {
   padding: 1.25rem;
 }
 
+.contact__send {
+  padding-block: 1.25rem;
+  cursor: pointer;
+}
 
+.contact__message {
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
 
 /*=============== FOOTER ===============*/
 
